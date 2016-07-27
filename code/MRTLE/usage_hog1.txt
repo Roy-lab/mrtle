@@ -1,0 +1,1 @@
+./condSpecLearner -f ../../data/speciesconf.txt -k2 -x300 -v1 -l ../../data/TFs/TFs_OGs.txt -n ../../data/genelists/hog1.txt -d ../../data/yeast_tree_rates.txt -m ../../data/OGid_members.txt -s ../../data/specorder_allclade.txt -b -.9 -q 4.0

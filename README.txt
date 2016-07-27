@@ -1,6 +1,11 @@
-INSTALLATION
+OVERVIEW
+MRTLE takes expression data for multiple species, a phyloegentic tree relating the species, and other optional species-specific regulatory information, and learns a regulatory network for each species
 
-To install MRTLE, simply type make to create an executable named mrtle
+INSTALLATION
+To install MRTLE, change directories to code/MRTLE and type make
+
+cd code/MRTLE
+make
 
 
 EXAMPLE USAGE OF MRTLE
@@ -34,4 +39,3 @@ m : A file describing the orthology relationships. The first column of this file
 s : A list of the species present in the OGIDS file (parameter m), in the order they exist in the OGIDS file
 b : Beta1. Controls the sparsity of the network 
 q : Beta2. Controls how strongly motifs are incorporated as prior. A higher value will result in motifs being valued more strongly
-

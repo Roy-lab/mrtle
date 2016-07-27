@@ -1,0 +1,3 @@
+/work/sroy/regev_lab/regev/sroy/compfuncgen/data/carbon/species_specific/scas/nointerpolate_0.50miss.geneexp
+/work/sroy/regev_lab/regev/sroy/compfuncgen/data/stressdata/ilandata/ALL/species_specific/scas/nointerpolate_0.50miss.geneexp
+#/work/sroy/regev_lab/regev/sroy/compfuncgen/data/anajay/OS_KCl/species_specific/scas/nointerpolate_0.50miss.geneexp

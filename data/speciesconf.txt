@@ -1,0 +1,6 @@
+Scer	data/expression/Scer_geneexp.txt	out/Scer	data/TFs/Scer_tf_mrna_binding.txt	data/genelists/Scer_allGenes.txt	data/motifs/Scer_motifs.txt
+Cgla	data/expression/Cgla_geneexp.txt	out/Cgla	data/TFs/Cgla_tf_mrna_binding.txt	data/genelists/Cgla_allGenes.txt	data/motifs/Cgla_motifs.txt
+Scas	data/expression/Scas_geneexp.txt	out/Scas	data/TFs/Scas_tf_mrna_binding.txt	data/genelists/Scas_allGenes.txt	data/motifs/Scas_motifs.txt
+Klac	data/expression/Klac_geneexp.txt	out/Klac	data/TFs/Klac_tf_mrna_binding.txt	data/genelists/Klac_allGenes.txt	data/motifs/Klac_motifs.txt
+Calb	data/expression/Calb_geneexp.txt	out/Calb	data/TFs/Calb_tf_mrna_binding.txt	data/genelists/Calb_allGenes.txt	data/motifs/Calb_motifs.txt
+Spom	data/expression/Spom_geneexp.txt	out/Spom	data/TFs/Spom_tf_mrna_binding.txt	data/genelists/Spom_allGenes.txt	data/motifs/Spom_motifs.txt

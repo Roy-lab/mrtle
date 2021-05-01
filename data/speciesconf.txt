@@ -1,6 +1,0 @@
-Scer	../../data/expression/scer	../../data/outputDir/Scer	../../data/TFs/Scer_tf_mrna_binding_speciesspecific.txt	../../data/genelists/Scer/allGenes.txt	../../data/motifs/Scer_motifs.txt
-Cgla	../../data/expression/cgla	../../data/outputDir/Cgla	../../data/TFs/Cgla_tf_mrna_binding_speciesspecific.txt	../../data/genelists/Cgla/allGenes.txt	../../data/motifs/Cgla_motifs.txt
-Scas	../../data/expression/scas	../../data/outputDir/Scas	../../data/TFs/Scas_tf_mrna_binding_speciesspecific.txt	../../data/genelists/Scas/allGenes.txt	../../data/motifs/Scas_motifs.txt
-Klac	../../data/expression/klac	../../data/outputDir/Klac	../../data/TFs/Klac_tf_mrna_binding_speciesspecific.txt	../../data/genelists/Klac/allGenes.txt	../../data/motifs/Klac_motifs.txt
-Calb	../../data/expression/calb	../../data/outputDir/Calb	../../data/TFs/Calb_tf_mrna_binding_speciesspecific.txt	../../data/genelists/Calb/allGenes.txt	../../data/motifs/Calb_motifs.txt
-Spom	../../data/expression/spom	../../data/outputDir/Spom	../../data/TFs/Spom_tf_mrna_binding_speciesspecific.txt	../../data/genelists/Spom/allGenes.txt	../../data/motifs/Spom_motifs.txt

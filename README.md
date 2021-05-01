@@ -16,7 +16,7 @@ The above example will run MRTLE using all regulators and targets. Since MRTLE l
 ./mrtle -f ../../data/speciesconf.txt -x300 -v1 -l ../../data/TFs/TFs_OGs.txt -n ../../data/genelists/hog1.txt -d ../../data/yeast_tree_rates.txt -m ../../data/OGid_members.txt -s ../../data/specorder_allclade.txt -b -.9 -q 4.0
 
 
-PARAMETER EXPLANATIONS
+## PARAMETER EXPLANATIONS
 f : config file with one, six column row for each species. Each species' row should have the following species-specific entries:
 	1. Species Name
 	2. Prefix of .data and .model files 

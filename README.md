@@ -3,7 +3,7 @@ MRTLE takes expression data for multiple species, a phyloegentic tree relating t
 
 ## INSTALLATION
 1) git clone https://github.com/Roy-lab/mrtle.git 
-2) cd mrtle/ 
+2) cd mrtle/code 
 3) make
 
 

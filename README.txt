@@ -1,16 +1,15 @@
-OVERVIEW
+# OVERVIEW
 MRTLE takes expression data for multiple species, a phyloegentic tree relating the species, and other optional species-specific regulatory information, and learns a regulatory network for each species
 
-INSTALLATION
-To install MRTLE, change directories to code/MRTLE and type make
+## INSTALLATION
+1) git clone https://github.com/Roy-lab/mrtle.git 
+2) cd mrtle/ 
+3) make
 
-cd code/MRTLE
-make
 
+## EXAMPLE USAGE OF MRTLE
+./mrtle -f data/speciesconf.txt -x300 -v1 -m data/OGid_members.txt -l data/TFs/TFs_OGs.txt -n data/genelists/AllGenes.txt -d data/yeast_tree_rates.txt -s data/specorder_allclade.txt -b -0.9 -q 4.0
 
-EXAMPLE USAGE OF MRTLE
-
-./mrtle -f ../../data/speciesconf.txt -x300 -v1 -l ../../data/TFs/TFs_OGs.txt -n ../../data/genelists/AllGenes.txt -d ../../data/yeast_tree_rates.txt -m ../../data/OGid_members.txt -s ../../data/specorder_allclade.txt -b -.9 -q 4.0
 
 The above example will run MRTLE using all regulators and targets. Since MRTLE learns regulators on a per-target basis, the algorithm can easily be parallelized by running the algorithm for each target orthogroup (or sets of target orthogroups) separately. For example, to run MRTLE using only OG59 (includes HOG1), we can replace the -n parameter with a file that contains only OG59 as such:
 

@@ -22,8 +22,8 @@ The above example will run MRTLE using all regulators and targets. Since MRTLE l
 
 ## PARAMETER EXPLANATIONS
 f : config file with one, six column row for each species. Each species' row should have the following species-specific entries:
-- 1. Species Name
-- 2. Filename of the expression data for each species
+* 1. Species Name
+* 2. Filename of the expression data for each species
 - 3. Location to place outputs
 - 4. List of regulators to be used
 - 5. List of target genes to be used

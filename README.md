@@ -1,5 +1,9 @@
-# OVERVIEW
-MRTLE takes expression data for multiple species, a phyloegentic tree relating the species, and other optional species-specific regulatory information, and learns a regulatory network for each species
+# Multi-species Regulatory neTwork LEarning (MRTLE) 
+
+MRTLE takes expression data for multiple species, a phyloegentic tree relating the species, and other optional species-specific regulatory information, and learns a regulatory network for each species.
+
+Koch, Christopher, et al. "Inference and evolutionary analysis of genome-scale regulatory networks in large phylogenies." Cell systems 4.5 (2017): 543-558.
+\url{https://doi.org/10.1016/j.cels.2017.04.010}
 
 ## INSTALLATION
 1) git clone https://github.com/Roy-lab/mrtle.git 
@@ -18,12 +22,12 @@ The above example will run MRTLE using all regulators and targets. Since MRTLE l
 
 ## PARAMETER EXPLANATIONS
 f : config file with one, six column row for each species. Each species' row should have the following species-specific entries:
-	1. Species Name
-	2. Filename of the expression data for each species
-	3. Location to place outputs
-	4. List of regulators to be used
-	5. List of target genes to be used
-	6. List of motifs to be used. This file should have three tab-separated columns, listing the regulator, target, and motif score
+	-1. Species Name
+	-2. Filename of the expression data for each species
+	-3. Location to place outputs
+	-4. List of regulators to be used
+	-5. List of target genes to be used
+	-6. List of motifs to be used. This file should have three tab-separated columns, listing the regulator, target, and motif score
 
 x : Maximum # of regulators to be used for a given target.
 
@@ -34,11 +38,11 @@ l : List of the orthogroups (id #s) to be considered as regulators. Note: a regu
 n : List of the orthogroups (id #s) to be considered as targets. Note: a target must also be present in the species-specific list of targets given in the species-specific config file (parameter f)
 
 d : The species tree to be used. This file should have 5 columns describing the tree:
-	1. Child Species
-	2. Child relation to parent (left or right child)
-	3. Parent Species
-	4. Branch-specific gain rate
-	5. Branch-specific loss rate
+	-1. Child Species
+	-2. Child relation to parent (left or right child)
+	-3. Parent Species
+	-4. Branch-specific gain rate
+	-5. Branch-specific loss rate
 
 m : A file describing the orthology relationships. The first column of this file is of the format OGID{NUMBER}_{DUP}. Each NUMBER represents an orthogroup. For orthogroups with duplications, DUP is the duplication count/id. If there are no duplications in the dataset being used, DUP will always be 1. Gene names must be unique across species	
 

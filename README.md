@@ -13,13 +13,13 @@ MRTLE takes expression data for multiple species, a phyloegentic tree relating t
 
 The above example will run MRTLE using all regulators and targets. Since MRTLE learns regulators on a per-target basis, the algorithm can easily be parallelized by running the algorithm for each target orthogroup (or sets of target orthogroups) separately. For example, to run MRTLE using only OG59 (includes HOG1), we can replace the -n parameter with a file that contains only OG59 as such:
 
-./mrtle -f data/speciesconf.txt -x300 -v1 -l data/TFs/TFs_OGs.txt -n data/genelists/hog1.txt -d data/yeast_tree_rates.txt -m data/OGid_members.txt -s data/specorder_allclade.txt -b -0.9 -q 4.0
+```./mrtle -f data/speciesconf.txt -x300 -v1 -l data/TFs/TFs_OGs.txt -n data/genelists/hog1.txt -d data/yeast_tree_rates.txt -m data/OGid_members.txt -s data/specorder_allclade.txt -b -0.9 -q 4.0```
 
 
 ## PARAMETER EXPLANATIONS
 f : config file with one, six column row for each species. Each species' row should have the following species-specific entries:
 	1. Species Name
-	2. Prefix of .data and .model files 
+	2. Filename of the expression data for each species
 	3. Location to place outputs
 	4. List of regulators to be used
 	5. List of target genes to be used
